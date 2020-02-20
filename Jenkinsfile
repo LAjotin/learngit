@@ -15,7 +15,7 @@ pipeline {
         stage('Build') { 
             steps {
                 //执行构建命令
-                sh 'mvn -B -DskipTests clean package' 
+                sh 'mvn install package ' 
             }
         }
     }
