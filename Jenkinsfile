@@ -9,7 +9,7 @@ pipeline {
         stage('Pull Git Demo') {
             steps{
                 //拉取代码
-                git 'https://github.com/hellxz/springboot-demo1.git'
+                git 'https://github.com/LAjotin/simple-java-maven-app.git'
             }
         }
         stage('Build') { 
